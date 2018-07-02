@@ -1,1 +1,113 @@
-﻿
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(50,50px);
+    margin: 2rem auto;
+    max-width: 1000px;
+    width: 90%;
+}
+.container1 {
+    grid-row: 1 / span 3;
+    grid-column: 2 / span 4;
+    /*background-color: blue;*/
+    text-align: center;
+    color: #474E5D;
+    font-family:Verdana;
+    font-size-adjust: 0.58;
+}
+.container2 {
+    display: flex;
+    grid-row: 4 / span 5;
+    grid-column: 3 / span 2;
+    background-color: blue;
+    background-image: url('images/rsz_1seasmus_hoban_headshot_-_new.jpg');
+    background-size: cover;
+    /*position: relative;*/
+}
+.container3 {
+    grid-row: 9 / span 6;
+    grid-column: 2 / span 4;
+    /*background-color: red;*/
+    font-family: Arial;
+    justify-content: center;
+    text-align:center;
+}
+.container4 {
+    grid-row: 15 / span 6;
+    grid-column: 1 / span 5;
+    /*background-color: yellow;*/
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.container5 {
+    grid-row: 21 / span 2;
+    grid-column: 1 / span 6;
+    /*background-color: aqua;*/
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+.container6 {
+    grid-row: 23 / span 6;
+    grid-column: 1 / span 3;
+    /*background-color: violet;*/
+    background-image: url('images/Fortune_Teller.png');
+    background-size: cover;
+    position: relative;
+}
+.container7 {
+    grid-row: 23 / span 6;
+    grid-column: 4 / span 3;
+    /*background-color: orange;*/
+    font-family: Arial;
+    /*justify-content: center;*/
+    /*display:flex;*/
+    text-align:center;
+}
+.container8 {
+    grid-row: 29 / span 6;
+    grid-column: 1 / span 3;
+    /*background-color: green;*/
+    font-family: Arial;
+    text-align:center;
+}
+.container9 {
+    grid-row: 29 / span 6;
+    grid-column: 4 / span 3;
+    /*background-color: red;*/
+    /*background-image: url('images/rsz_vpshelter.png');*/
+    background-image: url('images/VPShelter.png');
+    background-size: cover;
+    position: relative;
+}
+.container10 {
+    grid-row: 35 / span 6;
+    grid-column: 1 / span 3;
+    /*background-color: burlywood;*/
+    background-image: url('images/LifeIsStrange.png');
+    background-size: cover;
+    position: relative;
+    
+}
+.container11 {
+    grid-row: 35 / span 6;
+    grid-column: 4 / span 3;
+    /*background-color: purple;*/
+    font-family: Arial;
+    text-align:center;
+}
+.container12 {
+    display: flex;
+    justify-content: center;
+    grid-row: 41 / span 2;
+    grid-column: 1 /span 6;
+}
+.container13 {
+    display: flex;
+    justify-content: center;
+    grid-row: 43 / span 4;
+    grid-column: 1 /span 6;
+}
